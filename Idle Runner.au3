@@ -650,8 +650,8 @@ Func BuyEquipment()
 			MouseClick("left", 1253, 170, 5, 0)
 			Sleep(200)
 		EndIf
-		;50 buy
-		MouseClick("left", 1100, 636, 5, 0)
+		;50 buy changed to MAX buy
+		MouseClick("left", 1180, 636, 4, 0)
 		Local $aLocation
 		While 1
 			;Check if there is any green buy boxes
